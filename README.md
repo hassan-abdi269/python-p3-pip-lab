@@ -60,3 +60,18 @@ Virtual environments allow us to have a deterministic and predictable
 
 - [Pip env](https://pipenv.pypa.io/en/latest/)
 - [PYPI](https://pypi.org/)
+# Environment Lab
+
+## Summary
+This lab sets up a Python environment using `venv` with:
+
+- Python 3.8.13
+- requests==2.27.1
+- pytest==7.1.3
+
+## How to Run
+1. Create the virtual environment:
+   ```bash
+   python3.8 -m venv .venv
+   source .venv/bin/activate
+   pip install -r requirements.txt
